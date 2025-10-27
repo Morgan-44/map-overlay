@@ -1,0 +1,7 @@
+folders are module names
+png images are ordered, e.g. chapel1, chapel2
+if there is the player arrow in the screenshot, image is called {module name}_player.png
+will do 90n degree orientations later
+
+just want to get all module names down
+
