@@ -3,7 +3,21 @@ This project captures an in-game map, splits into tiles, classifies each tile us
 trained ResNet18 model, and generates a transparent overlay that appears on top of the
 game window.  
 
+## Example usage
+Here's how the overlay looks in-game:  
   
+![Overlay example](./exampleUsage.png)
+
+## Map Icons
+
+| Icon | Meaning |
+|------|---------|
+| ![Grass](./icons/baseHealth.png) | Health shrine on base level |
+| ![Road](./icons/baseRes.png)   | Resurrection shrine on base level |
+| ![Water](./icons/underHealth.png) | Underground health shrine |
+| ![Building](./icons/underRes.png) | Underground resurrection shrine |
+
+
 ## Controls
 - **F9 →** Generate the overlay (map must be open in-game)  
 - **M →** Toggle overlay visibility on/off
