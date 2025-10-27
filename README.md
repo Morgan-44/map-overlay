@@ -41,8 +41,10 @@ e.g. rare chest, mobs, module names, etc.
   - I would then make each feature toggable so the overlay doesn't get clustered
 - Currently the program only works for games running at 1920x1080 resolution, I may allow users to select
 from common resolutions, or try to make it work for any res.
+- Currently the overlay only works for 1 of 6 maps, I may add compatibility with more and eventually all maps
+  - Unsure if for this I will create 1 big model, or 1 model per map, where the user has to select what map they are on
+  each time, which corresponds to a certain model
 - Package into an installer/GUI for easier use
-
 
 
 
