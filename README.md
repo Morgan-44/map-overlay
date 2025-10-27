@@ -3,6 +3,9 @@ This project captures an in-game map, splits into tiles, classifies each tile us
 trained ResNet18 model, and generates a transparent overlay that appears on top of the
 game window.  
 
+Maps are randomly generated each game, with modules able to be generated in 4 different rotations, 
+hence a trained model with currently ~130 classes is required to recognise each module and its rotation
+
 ## Example usage
 Here's how the overlay looks in-game:  
   
@@ -12,10 +15,10 @@ Here's how the overlay looks in-game:
 
 | Icon | Meaning |
 |------|---------|
-| ![Grass](./icons/baseHealth.png) | Health shrine on base level |
-| ![Road](./icons/baseRes.png)   | Resurrection shrine on base level |
-| ![Water](./icons/underHealth.png) | Underground health shrine |
-| ![Building](./icons/underRes.png) | Underground resurrection shrine |
+| ![baseHealth](./icons/baseHealth.png) | Health shrine on base level |
+| ![baseRes](./icons/baseRes.png)   | Resurrection shrine on base level |
+| ![underHealth](./icons/underHealth.png) | Underground health shrine |
+| ![underRes](./icons/underRes.png) | Underground resurrection shrine |
 
 
 ## Controls
