@@ -3,6 +3,10 @@ This project captures an in-game map, splits into tiles, classifies each tile us
 trained ResNet18 model, and generates a transparent overlay that appears on top of the
 game window.  
 
+**annotatedMapGenerator.py** generates an image of the map, with the overlay on top,
+
+**overlayGenerator.py** places the overlay directly over your game window.
+
 Maps are randomly generated each game, with modules able to be generated in 4 different rotations, 
 hence a trained model with currently ~130 classes is required to recognise each module and its rotation
 
@@ -10,6 +14,13 @@ hence a trained model with currently ~130 classes is required to recognise each 
 Here's how the overlay looks in-game:  
   
 ![Overlay example](./exampleUsage.png)
+
+## ⚠️ WARNING! ⚠️
+As of 29/10/25 I have not yet confirmed if this is considered as cheating, but have contacted the game
+devs addressing this.
+
+I have made a "safer" version, which just generates an image instead of an overlay, called annotatedMapGenerator.py
+which I'm confident is not cheating.
 
 ## Map Icons
 
