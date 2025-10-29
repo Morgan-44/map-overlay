@@ -22,10 +22,11 @@ devs addressing this.
 I have made a "safer" version, which just generates an image instead of an overlay, called annotatedMapGenerator.py
 which I'm confident is not cheating.
 
-This project is **not affiliated with Dark and Darker or its developers**.  
-The tool is provided for generating annotated maps/images.  
-Use at your own risk, I am **not responsible for bans, account restrictions, or any other consequences** that may arise from using this code.  
-It is your responsibility to ensure compliance with the game's Terms of Service.  
+  
+- This project is **not affiliated with Dark and Darker or its developers**.  
+- The tool is provided for generating annotated maps/images.  
+- Use at your own risk, I am **not responsible for bans, account restrictions, or any other consequences** that may arise from using this code.  
+- It is your responsibility to ensure compliance with the game's Terms of Service.  
 
 ## Map Icons
 
